@@ -1,6 +1,6 @@
 :root {
-    --cor-principal: #F06A88;
-    --cor-alternativa: #babadd;
+    --cor-principal: #585872;
+    --cor-alternativa: #FFB6BB;
 
     --texto-principal: #262626;
     --texto-alternativo: #e0e0e0;
@@ -8,3 +8,37 @@
     --altura-do-header: 6.5vh;
     --altura-do-footer: 10vh;
 }
+
+@font-face {
+    font-family: 'Fonte Titulo';
+    src: url(../assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins/Poppins-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins/Poppins-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+ 
