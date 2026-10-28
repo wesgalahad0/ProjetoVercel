@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Fonte Corpo';
+    color: var(--cor-roxa);
 }
 
 .header {
@@ -17,8 +18,8 @@ body {
     width: 100%;
     z-index: 100;
 
-    background-color: var(--cor-principal);
-    color: var(--texto-principal);
+    background-color: var(--cor-roxa);
+    color: var(--cor-amarela);
 
     height: var(--altura-do-header);
 
@@ -43,15 +44,28 @@ body {
     height: calc(var(--altura-do-header) -1vh);
 }
 
-.navigation  a {
-    text-decoration: none;
-    color: var(--texto-principal);
+.logoContainer:hover {
+    scale: 102.5%;
 }
 
-.rodape {
-    background-color: #585872;
-    color: white;
-    padding: 50px 50px 20px 50px;
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+
+.navigation  a {
+    color: var(--cor-branca);
+    transition: 30ms;
+}
+
+.navigation a:hover {
+    color: var(--cor-rosa);
+}
+
+.footer {
+    background-color: var(--cor-roxa);
+    color: var(--cor-branca);
+    padding: 50px  50px 20px;
 }
 
 .rodapeContainer {
@@ -61,7 +75,36 @@ body {
     margin-bottom: 30px;
 }
 
+.rodapeColuna {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.rodapeLogo {
+    margin-bottom: 10px;
+    font-family: "Fonte Titlo";
+    color: var(--cor-amarela);
+}
+
 .rodapeColuna h3 {
-    color: #FFE691;
+    color: var(--cor-amarela);
     margin-bottom: 15px;
+}
+
+.rodapeColuna a {
+    color: inherit;
+    transition: 300ms;
+    width: fit-content;
+}
+
+.rodapeColuna a:hover {
+    color: var(--cor-rosa);
+    transform: translateX(5px);
+}
+
+.copyright {
+    border-top: 1px solid var(--cor-rosa);
+    padding-top: 20px;
+    text-align: center;
 }

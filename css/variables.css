@@ -1,12 +1,14 @@
 :root {
-    --cor-principal: #585872;
-    --cor-alternativa: #FFB6BB;
+    --cor-rosa: #FFB6BB;
+    --cor-amarela: #FFE691;
+    --cor-roxa: #585872;
+    --cor-azul: #95D5EE;
+    --cor-vermelho: #9E4446;
 
-    --texto-principal: #262626;
-    --texto-alternativo: #e0e0e0;
+    --cor-branca: #FAFAFA;
 
-    --altura-do-header: 6.5vh;
-    --altura-do-footer: 10vh;
+    --altura-do-header: 7.5vh;
+    --altura-do-footer: 15vh;
 }
 
 @font-face {
