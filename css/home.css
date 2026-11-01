@@ -115,7 +115,7 @@
 
 .selo {
     position: absolute;
-    bottom: 190px;
+    bottom: 220px;
     right: 60px;
     z-index: 3;
 
@@ -164,4 +164,43 @@
     margin-bottom: 20px;
     font-size: 17px;
     line-height: 1.8;
+}
+
+.historiaCards {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 45%;
+    padding: 25px;
+
+    background-color: var(--cor-rosa);
+    border-radius: 15px;
+    text-align: center;
+    transition: 300ms;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cardNumero {
+    display: block;
+    margin-bottom: 10px;
+
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--cor-vermelho);
+}
+
+.cardAzul {
+    background-color: var(--cor-azul);
+}
+
+.cardAmarelo {
+    background-color: var(--cor-amarela);
 }
