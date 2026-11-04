@@ -108,3 +108,34 @@ body {
     padding-top: 20px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    html {
+        scroll-padding-top: 170px;
+    }
+
+    .header {
+        height: auto;
+        padding: 12px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
+    }
+
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footerColuna {
+        width: 100%;
+    }
+}

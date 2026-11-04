@@ -204,3 +204,129 @@
 .cardAmarelo {
     background-color: var(--cor-amarela);
 }
+
+.contato {
+    padding: 100px 50px;
+    background-color: var(--cor-rosa);
+}
+
+.contato .tituloSecao {
+    margin-bottom: 15px;
+}
+
+.contatoTexto {
+    margin-bottom: 40px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+
+    background-color: var(--cor-branca);
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(158, 68, 70, 0.2);
+}
+
+.formulario label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+
+    border: 2px solid var(--cor-azul);
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--cor-roxa);
+}
+
+.formulario input:focus, .formulario select:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: var(--cor-vermelho);
+}
+
+.formulario textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+.botaoEnviar {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 190px 20px 60px;
+    }
+
+    .heroTexto, .heroImagem {
+        width: 100%;
+    }
+
+    .heroTexto {
+        text-align: center;
+    }
+
+    .heroTag {
+        margin: 0 auto 20px;
+    }
+
+    .heroTitulo {
+        font-size: 38px;
+    }
+
+    .botaoSecundario {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .circulo {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .selo {
+        width: 85px;
+        height: 85px;
+        right: 20px;
+        font-size: 14px;
+    }
+
+    .historia, .comoChegar,
+    .contato {
+        padding: 70px 20px;
+    }
+
+    .tituloSecao {
+        font-size: 34px;
+    }
+
+    .historiaConteudo, .comoChegarConteudo {
+        flex-direction: column;
+    }
+
+    .historiaTexto, .historiaCards,
+    .mapa, .infoEndereco, .card {
+        width: 100%;
+    }
+
+    .formulario {
+        padding: 25px;
+    }
+}
