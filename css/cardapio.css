@@ -1,1 +1,53 @@
-@import url(home.css);
+@import url(layout.css);
+
+.cardapioTopo {
+    background-color: var(--cor-amarela);
+    text-align: center;
+    padding: calc(var(--altura-do-header) + 60px);
+}
+
+.cardapioTag {
+    background-color: var(--cor-branca);
+    color: var(--cor-vermelho);
+    font-weight: bold;
+
+    width: fit-content;
+    padding: 6px 16px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.cardapioTitulo {
+    color: var(--cor-vermelho);
+
+    font-family: 'Fonte Titulo';
+    font-size: 56px;
+}
+
+.cardapioSubtitulo {
+    font-size: large;
+    margin: auto;
+}
+
+.cardapioConteudo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.listaCategorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoriaHeader {
+    border-bottom: 3px solid var(--cor-azul);
+}
+
+.listaItens {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    width: 45%;
+}
