@@ -32,22 +32,40 @@
 .cardapioConteudo {
     display: flex;
     align-items: flex-start;
+    padding: 25px;
 }
 
 .listaCategorias {
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 
 .categoriaHeader {
     border-bottom: 3px solid var(--cor-azul);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.categoria {
+    margin-top: 20px;
 }
 
 .listaItens {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .item {
-    width: 45%;
+    width: calc(50% - 10px);
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border-left: 6px solid var(--cor-vermelho);
+    border-radius: 12px;
 }
