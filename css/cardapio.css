@@ -1,5 +1,9 @@
 @import url(layout.css);
 
+a {
+    text-decoration:none ;
+}
+
 .cardapioTopo {
     background-color: var(--cor-amarela);
     text-align: center;

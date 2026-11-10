@@ -1,5 +1,8 @@
 @import url(layout.css);
 
+a {
+    text-decoration: none;
+}
 .hero {
     display: flex;
     align-items: center;
@@ -205,6 +208,38 @@
     background-color: var(--cor-amarela);
 }
 
+.comoChegar {
+    padding: 100px 50px;
+    background-color: var(--cor-azul);
+}
+
+.comoChegarConteudo {
+    display: flex;
+    gap: 40px;
+}
+
+.mapa {
+    width: 60%;
+}
+
+.mapa iframe {
+    width: 40%;
+    padding: 35px;
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+}
+
+.infoEndereco h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: var(--cor-vermelho);
+}
+
+.infoEndereco p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
 .contato {
     padding: 100px 50px;
     background-color: var(--cor-rosa);
@@ -266,6 +301,16 @@
     font-family: inherit;
     font-size: 16px;
     cursor: pointer;
+    display: inline-block;
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branca);
+
+    border: 2px solid var(--cor-vermelho);
+    border-radius: 30px;
+
+    padding: 14px 30px;
+    font-weight: bold;
+    transition: 300ms;
 }
 
 @media (max-width: 768px) {
